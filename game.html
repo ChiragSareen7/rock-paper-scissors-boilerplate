@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score-container">
+        <h2 id="player-score">0</h2>
+        <h1>-</h1>
+        <h2 id="computer-score">0</h2>
+    </div>
+    <div class="center">
+        <div class="player" id="user">
+            <h3>Player</h3>
+            <div id="user-move" class="action"></div>
+            <div id="user-moves">
+                <img src="./assets/rock-logo.png" alt="" id="user-rock">
+                <img src="./assets/paper-logo.png" alt="" id="user-paper">
+                <img src="./assets/scissors-logo.png" alt="" id="user-scissors">
+            </div>
+        </div>
+        <div class="vs">
+            <img src="assets/vs.png" alt="">
+        </div>
+        <div class="player" id="computer">
+            <h3>Computer</h3>
+            <div id="computer-move" class="action"></div>
+        </div>
+    </div>
+
+        <div id="result"></div>
+        <div class="play-again">Play Again</div>
+
+    <script src="game.js"></script>
+</body>
+</html>
